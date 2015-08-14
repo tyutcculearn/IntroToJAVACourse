@@ -1,7 +1,7 @@
 
 public class SingleLinkedListNode<T> {
 
-	private T data;
+	T data;
 	SingleLinkedListNode<T> nextNode;
 	
 

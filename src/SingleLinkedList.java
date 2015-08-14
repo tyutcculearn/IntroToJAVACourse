@@ -18,6 +18,15 @@ public class SingleLinkedList<T> {
 			lastNode = lastNode.nextNode = new SingleLinkedListNode<T>(object,nextNode);
 		}
 	}
+	
+	public void print(){
+		SingleLinkedListNode<T> current = firstNode;
+		
+		while(current != null){
+			System.out.println(firstNode.data);
+			current = current.nextNode;
+		}
+	}
 
 	private boolean isEmpty(){
 
